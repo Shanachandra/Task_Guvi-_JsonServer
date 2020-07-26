@@ -7,12 +7,13 @@ console.log(sss[i])
 const fs = require('fs');
 let data = JSON.stringify(sss);
 fs.writeFileSync('db-2.json', data);
-// const fs = require('fs');
-// fs.writeFile('db2.json', sss, (err) => {
-    // // throws an error, you could also catch it here
-    // if (err) throw err;
 
-    // // success case, the file was saved
-    // console.log('Lyric saved!');
-// });
+
+/*const fs = require('fs');
+fs.writeFile('db2.json', sss, (err) => {
+throws an error, you could also catch it here
+ if (err) throw err;
+    success case, the file was saved
+     console.log('Lyric saved!');
+});*/
 
